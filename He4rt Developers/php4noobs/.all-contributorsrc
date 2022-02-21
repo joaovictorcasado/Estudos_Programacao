@@ -1,0 +1,95 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "DanielHe4rt",
+      "name": "Daniel Reis",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6912596?v=4",
+      "profile": "https://danielheart.dev",
+      "contributions": [
+        "code",
+        "maintenance",
+        "ideas",
+        "video",
+        "review"
+      ]
+    },
+    {
+      "login": "geekcom",
+      "name": "Daniel Rodrigues",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3955933?v=4",
+      "profile": "https://twitter.com/geekcom2",
+      "contributions": [
+        "code",
+        "review",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "arthurabreu00",
+      "name": "Arthur Tavares",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40744942?v=4",
+      "profile": "https://github.com/arthurabreu00",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "EHER",
+      "name": "Alexandre Eher",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/398034?v=4",
+      "profile": "http://about:blank",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "malukenho",
+      "name": "Jefersson Nathan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3275172?v=4",
+      "profile": "https://twitter.com/malukenho",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "airtonzanon",
+      "name": "Airton Zanon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6540546?v=4",
+      "profile": "https://airton.dev",
+      "contributions": [
+        "review",
+        "code"
+      ]
+    },
+    {
+      "login": "Ryandgs",
+      "name": "Ryan Douglas da Silva",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43894463?v=4",
+      "profile": "https://github.com/Ryandgs",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ribeirohenrique",
+      "name": "Henrique Mendes",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25642342?v=4",
+      "profile": "https://github.com/ribeirohenrique",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "php4noobs",
+  "projectOwner": "DanielHe4rt",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

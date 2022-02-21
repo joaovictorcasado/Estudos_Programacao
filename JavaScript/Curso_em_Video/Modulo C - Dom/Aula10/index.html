@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos no  Dom</title>
+  
+  <style>  
+      div#bloco-1{
+        font: normal arial 15pt; 
+        height: 200px;
+        background: green;
+        color: white;
+        width: 200px;
+        line-height: 200px;
+        text-align: center;
+      }
+
+      div#bloco-2{
+        font: normal arial 25pt; 
+        font-weight: 600;
+        height: 200px;
+        background: violet;
+        color: black;
+        width: 200px;
+        line-height: 200px;
+        text-align: center;
+      }
+
+ </style>
+</head>
+<body>
+
+<!-- Disparando Eventos pelo html-->
+  <div id="bloco-1" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"   >  
+    
+   Bloco 1
+
+  </div>
+  
+  <div id="bloco-2">
+    Bloco 2
+  </div>
+
+  <!-- Tratando os eventos-->
+  
+<script>
+      var a = window.document.querySelector('div#bloco-1');
+      var b = window.document.querySelector('div#bloco-2');
+
+  function clicar () {
+    a.innerText = 'Clicou';
+    a.style.background= 'red'
+  }
+
+  function entrar () {
+    a.innerText = 'Entrou!'
+    a.style.background= 'blue'
+
+  }
+
+  function sair () {
+    a.innerText = 'Saiu!'
+    a.style.background= 'green'
+
+  }
+
+
+  // Também podemos disparar eventos diretamente pelo java script para deixar o código mais limpo..
+
+  // Exemplos:
+
+  // Para dispararmos eventos diretamente pelo Java Script iremos utilizando o addEventListener..
+
+  // Repare que o addEventListener começa pelo tipo do evento, seguido pelo nome da função..
+
+  b.addEventListener('click', clicar2);
+
+  function clicar2 () {
+    b.innerHTML = 'Clicou';
+    b.style.background = 'red'
+  }
+
+  b.addEventListener('mouseenter', entrar2)
+  function entrar2 () {
+    b.innerHTML = 'Entrou!!';
+    b.style.background = 'yellow'
+  }
+  b.addEventListener('mouseout', sair2)
+  function sair2 () {
+    b.innerHTML = 'Saiu!';
+    b.style.background = 'gray'
+  }
+
+  
+
+  
+
+
+
+
+</script>
+
+ 
+</body>
+</html>
